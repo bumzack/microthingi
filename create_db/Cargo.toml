@@ -1,0 +1,11 @@
+[package]
+name = "create_db"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+svg = "0.13.1"
+magick_rust = "0.19.0"
+diesel = { version = "2.1.1", features = ["postgres", "numeric"] }
+dotenvy = "0.15"
+bigdecimal = "0.4.1"

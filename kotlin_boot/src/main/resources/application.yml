@@ -1,0 +1,16 @@
+server:
+  port: 3000
+
+spring:
+  jpa:
+    database: POSTGRESQL
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+  datasource:
+    platform: postgres
+    url: jdbc:postgresql://localhost:5433/microthingi
+    username: microthingi
+    password: microthingi
+    driverClassName: org.postgresql.Driver
+

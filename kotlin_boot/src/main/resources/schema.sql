@@ -1,0 +1,20 @@
+CREATE TABLE IF NOT EXISTS articles (
+id       VARCHAR(60)  PRIMARY KEY,
+text     VARCHAR      NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS images (
+id       VARCHAR(60)  PRIMARY KEY,
+text     VARCHAR      NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS prices (
+id       VARCHAR(60)  PRIMARY KEY,
+text     VARCHAR      NOT NULL
+);
+
+
+CREATE TABLE IF NOT EXISTS texts (
+id       VARCHAR(60)  PRIMARY KEY,
+text     VARCHAR      NOT NULL
+);

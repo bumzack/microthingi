@@ -1,0 +1,10 @@
+server:
+  port: 4000
+
+spring:
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5433/microthingi
+    username: microthingi
+    password: microthingi
+    repositories:
+      enabled: true
